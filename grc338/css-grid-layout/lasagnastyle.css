@@ -56,17 +56,18 @@ h3 {
 
 figure {
   display: grid;
-  grid-template-columns: 2fr 1fr;
-  align-items: center;
+  grid-template-columns: 3fr 1fr;
   background-color: rgb(250, 250, 250);
-  gap: 2em;
-  padding: 2em;
+  margin: 0;
+  padding: 0;
 }
 
 figcaption {
   font-style: italic;
   font-size: 1em;
   line-height: 1.4em;
+  padding: 1.5em 2em;
+  background-color: rgb(250, 250, 250);
 }
 
 ul {
@@ -88,8 +89,8 @@ li {
 footer {
   background-color: rgb(255,136,0);
   color: rgb(250, 250, 250);
-  text-align: center;
-  padding: 1em;
+  text-align: left;
+  padding: 1em 3em 0.8em;
   font-family: poppins, sans-serif;
   font-size: 0.9em;
 }
