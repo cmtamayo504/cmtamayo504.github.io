@@ -8,12 +8,14 @@ div.home-container {
 	background-size: cover;
 	position: relative;
 	min-height: 100vh;
+	width: 100%;
 }
 
 div.container { 
 	position: relative;
 	min-height: 100vh;
     background-color: rgb(222, 222, 222); 
+	width: 100%;
 }
 
 body {
@@ -94,7 +96,7 @@ figure {
 
 .pagetext {
 	margin-top: 1em;
-	width: 40em;
+	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -269,5 +271,9 @@ footer p {
 
 	h1 {
 	width: 20em; 
+	}
+
+	.pagetext {
+	width: 50%;
 	}
 }
