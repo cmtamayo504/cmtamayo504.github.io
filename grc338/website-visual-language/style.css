@@ -166,7 +166,7 @@ nav ul li.selected a {
 }
 
 p.slogan {
-	font-size: 3em;
+	font-size: 2em;
 	font-family: serif;
 	font-style: italic;
 	margin: 1em 0em 1em 0.4em;
@@ -310,5 +310,6 @@ main.menu ul li:hover .price {
 	}
 	p.slogan {
 		margin: 1em 0em 1em 0.4em;
+		font-size: 3em;
 	}
 }
