@@ -235,6 +235,33 @@ footer p {
 	margin: 0;
 }
 
+main.menu ul li {
+	margin: 1em 0em 1.5em;
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-template-rows: auto auto;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 5px;
+    cursor: pointer;
+}	
+
+main.menu ul li h4, 
+main.menu ul li .description, 
+main.menu ul li .price {
+    transition: transform 0.3s ease; 
+}
+
+main.menu ul li:hover {
+    background-color: rgba(0, 0, 0, 0.05); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+main.menu ul li:hover h4, 
+main.menu ul li:hover .description, 
+main.menu ul li:hover .price {
+    transform: translateY(-2px); 
+}
+
 @media screen and (min-width: 60em) {
     
 	div.home-container { 
