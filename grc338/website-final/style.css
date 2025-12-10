@@ -43,7 +43,7 @@ header {
 	}
 
 h1 {
-	width: 18em; 
+	width: 17em; 
 	}
 
 h2 {
@@ -178,7 +178,7 @@ p.slogan {
 	font-weight: 400;
 	font-style: italic;
 	font-size: 3em;
-	margin: 1em 0em 1em 0.4em;
+	margin: 1em 0em 1em 0em;
 	color: rgb(130, 0, 0);	
 	text-shadow: 0.04em 0.04em 0.08em rgba(0, 0, 0, 0.8);
 	}
@@ -279,7 +279,7 @@ main.menu ul li:hover .price {
 	flex-wrap: wrap; 
     align-items: center;
     gap: 1em;
-    margin-left: 1.4em;
+    margin-left: 0em;
     margin-top: 2em;
 	margin-bottom: 6em;
     width: fit-content;
@@ -310,11 +310,9 @@ main.menu ul li:hover .price {
 }
 
 .contact-actions {
-    margin-left: -2em; 
-    margin-right: -2em;
-    padding: 0 2em;
-    display: grid;
-    grid-template-columns: auto, auto;
+    margin-left: auto; 
+    margin-right: auto;
+    padding: 0em;
     gap: 1.5em;
     margin-bottom: 2em;
 }
@@ -332,7 +330,7 @@ main.menu ul li:hover .price {
     flex: 1 1 0; 
 }
 
-.map-btn a, .phone-btn a, .email-btn {
+.map-btn a, .phone-btn a, .email-btn a {
     color: rgb(0, 0, 0);
     display: block;
 }
@@ -340,7 +338,7 @@ main.menu ul li:hover .price {
 .map-btn h4, .phone-btn h4, .email-btn h4 {
     font-family: veneer-three, sans-serif;
     text-transform: uppercase;
-    font-size: 1.6em;
+    font-size: 1.1em;
     color: rgb(130, 0, 0);
     margin-bottom: 0.2em;
 }
@@ -421,6 +419,8 @@ main.menu ul li:hover .price {
 	grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 2em; 
     margin-top: 1em;
+	margin-left: auto;
+	margin-right: auto;
 	margin-bottom: 2em;
     justify-content: flex-start; 
 }
@@ -496,6 +496,11 @@ main.menu ul li:hover .price {
         flex-direction: row; 
 		margin-left: 3em;
     }
+
+	.social-links-home {
+		margin-left: 0em;
+		margin-right: 1em;
+	}
     
     .cta-btn {
         font-size: 1.4em; 
@@ -503,6 +508,10 @@ main.menu ul li:hover .price {
 
 	main { 
 	padding: 2em 10em 5em;
+	}
+
+	.map-btn h4, .phone-btn h4, .email-btn h4 {
+		font-size: 1.5em;
 	}
 
 }
