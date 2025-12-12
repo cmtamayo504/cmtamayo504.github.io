@@ -64,8 +64,8 @@ h3 {
 
 h4 {
 	font-family: capellina-caps, serif;
-font-weight: 700;
-font-style: normal;
+    font-weight: 700;
+    font-style: normal;
 	font-style: normal;
 	font-size: 1.5em;
 }
@@ -87,8 +87,8 @@ figure {
 }
 
 .page {
-		margin-left: 0em;
-		margin-right: 0em;
+	margin-left: 0em;
+	margin-right: 0em;
 }	
 
 .pagetext {
@@ -100,9 +100,8 @@ figure {
 
 .image-container {
     width: 100%;
-    height: 25em; 
+    aspect-ratio: 1.50/1;
     overflow: hidden; 
-    margin: 1em 0;
 }
 
 .image-container img {
@@ -115,9 +114,9 @@ figure {
 p {
 	margin: 0em 0em 1em; 
 	font-family: "filosofia-grand", serif;
-font-weight: 400;
-font-style: normal;
-font-size: 1.2em;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.2em;
 	}
 	
 p.description {
@@ -130,8 +129,8 @@ p.price {
 	grid-column: 2;
 	color: rgb(0, 0, 0);
 	font-family: wausau, sans-serif;
-font-weight: 400;
-font-style: normal;
+    font-weight: 400;
+    font-style: normal;
 	text-align: right;
 	margin: 0;
 	}
@@ -184,14 +183,14 @@ p.slogan {
 	}
 	
 footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 5rem; 
-  box-sizing: border-box;
-  padding: 1em 1em;
-  background: rgb(0, 0, 0);
-  color: rgb(250, 250, 250);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 5rem; 
+    box-sizing: border-box;
+    padding: 1em 1em;
+    background: rgb(0, 0, 0);
+    color: rgb(250, 250, 250);
 }
 
 address.home, address.number, .home {
@@ -451,8 +450,8 @@ main.menu ul li:hover .price {
 @media screen and (min-width: 60em) {
     
 	div.home-container { 
-	background: url(home-background.jpeg) left top fixed;
-	background-size: cover;
+	    background: url(home-background.jpeg) left top fixed;
+	    background-size: cover;
 	}
 
     div.container, div.home-container {
@@ -507,11 +506,15 @@ main.menu ul li:hover .price {
     }
 
 	main { 
-	padding: 2em 10em 5em;
+	    padding: 2em 10em 5em;
 	}
 
 	.map-btn h4, .phone-btn h4, .email-btn h4 {
 		font-size: 1.5em;
 	}
+
+    .image-container {
+        aspect-ratio: 2.35/1;
+}
 
 }
