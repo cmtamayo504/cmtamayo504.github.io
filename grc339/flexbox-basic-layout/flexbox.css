@@ -113,23 +113,3 @@ footer a {
     color: #333;
     text-decoration: none;
 }
-
-@media (max-width: 768px) {
-    .container {
-        padding: 1em;
-    }
-
-    article {
-        flex: 1 0 100%;
-        padding-right: 0;
-        margin-bottom: 2em;
-    }
-
-    aside {
-        flex: 1 0 100%;
-    }
-    
-    h1 {
-        font-size: 2em;
-    }
-}
