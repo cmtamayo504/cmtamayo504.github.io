@@ -33,7 +33,7 @@ header{
 }
 
 .tertiary-story a h2{
-    margin-top: 1em;
+    margin-top: 0em;
 }
 
 h1 {
@@ -74,10 +74,14 @@ figcaption {
 }
 
 p {
-    font-size: 1.2em;
+    font-size: 1em;
     font-family: sans-serif;
     color: rgb(43, 43, 43);
-    padding-bottom: 1em;
+    padding-bottom: 2em;
+}
+
+.tertiary-story p {
+    padding-bottom: 0em;
 }
 
 ul {
