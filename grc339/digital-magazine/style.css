@@ -124,7 +124,7 @@ footer p{
 @media screen and (min-width: 60em) {
 
     nav ul {
-        display: flex;
+        display: flex; /* use display: inline */
         flex-wrap: wrap;
     }
 }
