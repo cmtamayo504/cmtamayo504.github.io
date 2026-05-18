@@ -28,7 +28,7 @@ header{
     display: block;
     margin-top: 2em;
     margin-bottom: 2em;
-	border-top: 1px solid rgb(96, 119, 152);
+	border-top: 1px solid #D00000;
 }
 
 .tertiary-story a h2{
@@ -36,37 +36,46 @@ header{
 }
 
 h1 {
-    width: 8em;
+    width: 15em;
 }
 
 article h2 {
     font-size: 3em;
-    font-weight: bold;
-    color: rgb(96, 119, 152);
+    color: #D00000;
+    font-family: pf-fuel-grime, sans-serif;
+        font-weight: 400;
+        font-style: normal;
 }
 
 section.main-story h2 {
     font-size: 3em;
-    font-weight: bold;
-    color: rgb(96, 119, 152);
+    color: #D00000;
+    font-family: pf-fuel-grime, sans-serif;
+        font-weight: 400;
+        font-style: normal;
 }
 
 section.secondary-story h2 {
     font-size: 2em;
-    font-weight: bold;
-    color: rgb(96, 119, 152);
+    color: #D00000;
+    font-family: pf-fuel-grime, sans-serif;
+        font-weight: 400;
+        font-style: normal;
 }
 
 .tertiary-story h2 {
     font-size: 1.5em;
-    font-weight: bold;
-    color: rgb(96, 119, 152);
+    color: #D00000;
+    font-family: pf-fuel-grime, sans-serif;
+        font-weight: 400;
+        font-style: normal;
 }
 
 figcaption {
     font-size: 1em;
-    font-style: italic;
-    font-family: sans-serif;
+    font-family: darkmode-on, sans-serif;
+        font-weight: 400;
+        font-style: italic;
     padding-top: 1em;
     padding-bottom: 2em;
     color: rgb(124, 124, 124)
@@ -74,9 +83,11 @@ figcaption {
 
 p {
     font-size: 1em;
-    font-family: sans-serif;
     color: rgb(43, 43, 43);
     padding-bottom: 2em;
+    font-family: darkmode-on, sans-serif;
+        font-weight: 400;
+        font-style: normal;
 }
 
 .tertiary-story p {
@@ -89,10 +100,12 @@ ul {
 }
 
 nav ul li {
-	font-weight: bold;
-    font-family: sans-serif;
     padding-bottom: 0.2em;
     display: block;
+    font-family: pf-fuel-grime, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.5em;
 }
 
 section.main-story figure img,
@@ -104,7 +117,7 @@ article figure img {
 }
 	
 nav ul li a {
-	color: rgb(96, 119, 152);
+	color: #D00000;
 }
 
 a {
@@ -112,19 +125,23 @@ a {
 }
 
 aside {
-    background-color: rgb(205, 207, 253);
+    background-color: #C8963E;
     padding-top: 1em;
 }
 
 footer {
-    background-color: rgb(96, 119, 152);
+    background-color: #C8963E;
     color: rgb(248, 248, 248);
     box-sizing: border-box;
+    
 }
 
 footer p{
     color: rgb(248, 248, 248);
     padding: 1em;
+    font-family: darkmode-on, sans-serif;
+        font-weight: 400;
+        font-style: normal;
 
 }
 
