@@ -1,0 +1,87 @@
+<!doctype html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1" /> <!-- You need this to proper scale in actual mobile devices.-->
+            <title>Chad Tamayo</title> 
+            <link rel="stylesheet" href="https://use.typekit.net/lfc7oic.css">
+            <link rel="stylesheet" type="text/css" href="style.css">
+
+            <!-- Helpful meta tags to fight GitHub aggresive caching-->
+                <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+                <meta http-equiv="Pragma" content="no-cache" />
+                <meta http-equiv="Expires" content="0" />
+            
+        </head>	
+
+        <body>
+            <div class="container">
+                
+                <header>
+                    <h1><a href="index.html"><img src="Ramona Drive logo.svg" alt="logo."></a></h1>
+                    <nav>
+                        <ul>
+                            <li class="nav"><a href="#">Metalcore</a></li>
+                            <li class="nav"><a href="#">Deathcore</a></li>
+                            <li class="nav"><a href="#">2000s Rock</a></li>
+                            <li class="nav"><a href="#">Music Festivals</a></li>
+                            <li class="nav"><a href="photogallery.html">Wacken Photo Gallery</a></li>
+                            <li class="nav"><a href="newsletter.html">Subscribe to our newsletter</a></li>
+                        </ul>
+                    </nav>
+                </header>
+
+                <article>
+                    <h2>Subscribe to Our Newsletter</h2>
+                    <p>Get the latest updates on metalcore, deathcore, and exclusive concert coverage delivered to your inbox.</p>
+                    
+                    <form class="newsletter-form">
+                        <label for="email">Email Address:</label>
+                        <input type="email" id="email" name="email" required>
+                        
+                        <fieldset class="newsletter-interests">
+                            <legend>What are you interested in?</legend>
+                            <div class="checkbox-group">
+                                <label class="checkbox-label">
+                                    <input type="checkbox" name="interests" value="metalcore">
+                                    Metalcore News & Updates
+                                </label>
+                            </div>
+                            <div class="checkbox-group">
+                                <label class="checkbox-label">
+                                    <input type="checkbox" name="interests" value="deathcore">
+                                    Deathcore News & Updates
+                                </label>
+                            </div>
+                            <div class="checkbox-group">
+                                <label class="checkbox-label">
+                                    <input type="checkbox" name="interests" value="festivals">
+                                    Festival Announcements
+                                </label>
+                            </div>
+                            <div class="checkbox-group">
+                                <label class="checkbox-label">
+                                    <input type="checkbox" name="interests" value="interviews">
+                                    Exclusive Artist Interviews
+                                </label>
+                            </div>
+                            <div class="checkbox-group">
+                                <label class="checkbox-label">
+                                    <input type="checkbox" name="interests" value="photos">
+                                    Behind-the-Scenes Photos
+                                </label>
+                            </div>
+                        </fieldset>
+                        
+                        <button type="submit">Subscribe</button>
+                    </form>
+                    
+                </article>
+
+                <footer>
+                    <p>All rights reserved.</p>
+                </footer>
+
+            </div>
+        </body>
+    </html>
