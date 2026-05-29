@@ -36,46 +36,17 @@
                     <p>Get the latest updates on metalcore, deathcore, and exclusive concert coverage delivered to your inbox.</p>
                     
                     <form class="newsletter-form">
-                        <label for="name">Name:</label>
-                        <input type="text" id="name" name="name" required>
+                        <li><label for="name">Name:</label> <input type="text" name="name" id="name" placeholder="your full name" /></li>
+                        <li><label for="email">Email:</label> <input type="email" name="email" id="email" placeholder="confirmation email" /></li>                        
                         
-                        <label for="email">Email Address:</label>
-                        <input type="email" id="email" name="email" required>
-                        
-                        <fieldset class="newsletter-interests">
-                            <legend>What are you interested in?</legend>
-                            <div class="checkbox-group">
-                                <label class="checkbox-label">
-                                    <input type="checkbox" name="interests" value="metalcore">
-                                    Metalcore News & Updates
-                                </label>
-                            </div>
-                            <div class="checkbox-group">
-                                <label class="checkbox-label">
-                                    <input type="checkbox" name="interests" value="deathcore">
-                                    Deathcore News & Updates
-                                </label>
-                            </div>
-                            <div class="checkbox-group">
-                                <label class="checkbox-label">
-                                    <input type="checkbox" name="interests" value="festivals">
-                                    Festival Announcements
-                                </label>
-                            </div>
-                            <div class="checkbox-group">
-                                <label class="checkbox-label">
-                                    <input type="checkbox" name="interests" value="interviews">
-                                    Exclusive Artist Interviews
-                                </label>
-                            </div>
-                            <div class="checkbox-group">
-                                <label class="checkbox-label">
-                                    <input type="checkbox" name="interests" value="photos">
-                                    Behind-the-Scenes Photos
-                                </label>
-                            </div>
-                        </fieldset>
-                        
+                        <h3>What are you interested in?</h3>
+                        <ul>
+                            <li><input type="checkbox" id="Metalcore News & Updates" value="metalcore" /> <label for="Metalcore News & Updates">Metalcore News & Updates</label></li>
+                            <li><input type="checkbox" id="Deathcore News & Updates" value="deathcore" /> <label for="Deathcore News & Updates">Deathcore News & Updates</label></li>
+                            <li><input type="checkbox" id="Festival Announcements" value="festivals" /> <label for="Festival Announcements">Festival Announcements</label></li>
+                            <li><input type="checkbox" id="Exclusive Artist Interviews" value="interviews" /> <label for="Exclusive Artist Interviews">Exclusive Artist Interviews</label></li>
+                        </ul>
+            
                         <button type="submit">Subscribe</button>
                     </form>
                     
