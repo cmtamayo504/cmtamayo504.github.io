@@ -209,6 +209,8 @@ input {
     margin: 2em 0;
     display: flex;
     flex-direction: column;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .newsletter-form > li {
@@ -221,14 +223,15 @@ input {
 .name-and-email {
   display: flex;
   flex-direction: column;
-  display: block;
+  list-style: none;
+  margin: 0 0 1.5em 0;
+  padding: 0;
 }
 
 li.name-and-email input{
     list-style: none;
-    margin-bottom: 1.5em;
-    display: flex;
-    flex-direction: column;
+    margin-bottom: 0;
+    display: block;
 }
 
 .newsletter-form label {
@@ -243,20 +246,21 @@ li.name-and-email input{
 li.name-and-email input[type="text"],
 li.name-and-email input[type="email"] {
     display: block;
-    padding: 0.85em;
+    width: 100%;
+    padding: 0.75em;
     font-size: 1em;
-    border: 2px solid rgb(209, 209, 209);
+    border: 1px solid rgb(209, 209, 209);
     border-radius: 0.25em;
+    background-color: rgb(255, 255, 255);
     font-family: darkmode-on, sans-serif;
     box-sizing: border-box;
-    transition: border-color 0.3s ease;
+    transition: border-color 0.2s ease;
 }
 
 li.name-and-email input[type="text"]:focus,
 li.name-and-email input[type="email"]:focus {
     outline: none;
     border-color: rgb(208, 0, 0);
-    box-shadow: 0 0 0 0.1875em rgba(208, 0, 0, 0.1);
 }
 
 .newsletter-form h3 {
@@ -274,16 +278,13 @@ li.name-and-email input[type="email"]:focus {
     list-style: none;
 }
 
-li.name-and-email {
-    padding: 0;
-    margin: 0 0 1.5em 0;
-    list-style: none;
-}
-
 li.name-and-email label {
-    margin: 0;
-    font-weight: 400;
+    margin: 0 0 0.8em 0;
+    font-weight: 600;
     cursor: pointer;
+    color: rgb(43, 43, 43);
+    font-size: 1em;
+    text-align: left;
 }
 
 .newsletter-form ul li {
@@ -326,7 +327,7 @@ li.name-and-email label {
 .newsletter-form button:hover {
     background-color: rgb(208, 0, 0);
     box-shadow: 0 0.25em 0.75em rgba(208, 0, 0, 0.3);
-    transform: translateY(-2px);
+    transform: translateY(-2em);
 }
 
 .newsletter-form button:active {
@@ -344,6 +345,15 @@ article ul li {
 }
 
 @media screen and (min-width: 60em) {
+    .newsletter-form > ul:first-of-type {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1.5em;
+    }
+
+    .newsletter-form > ul:first-of-type > li.name-and-email {
+        margin: 0 0 1.5em 0;
+    }
 
     section.main-story figure img,
     main section.secondary-story figure img,
@@ -474,12 +484,36 @@ article ul li {
 }
 
 @media screen and (prefers-color-scheme: dark) {
+    html, body {
+        background-color: rgb(43, 43, 43);
+    }
+
     div.container, div.home-container {
         background-color: rgb(43, 43, 43);
     }
 
     div.photo-gallery-container {
         background-color: rgb(43, 43, 43);
+    }
+
+    .name-and-email {
+        background: none;
+    }
+
+    li.name-and-email label {
+        color: rgb(248, 248, 248);
+    }
+
+    li.name-and-email input[type="text"],
+    li.name-and-email input[type="email"] {
+        background-color: rgb(55, 55, 55);
+        border-color: rgb(100, 100, 100);
+        color: rgb(248, 248, 248);
+    }
+
+    li.name-and-email input[type="text"]::placeholder,
+    li.name-and-email input[type="email"]::placeholder {
+        color: rgb(180, 180, 180);
     }
 
     p {
